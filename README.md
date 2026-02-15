@@ -39,16 +39,7 @@ a functional safari booking system that stores and displays booking data dynamic
 <h2>Business Logic</h2>
 <p>The core booking structure is stored as an object:</p>
 
-<pre>
-Booking {
-  fullName,
-  email,
-  destination,
-  numberOfPeople,
-  travelDate,
-  notes
-}
-</pre>
+
 
 <p>
 When a user submits the form:
