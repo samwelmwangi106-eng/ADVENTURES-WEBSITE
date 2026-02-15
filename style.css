@@ -1,0 +1,270 @@
+/* style.css */
+@media screen {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(233, 233, 240);
+    }
+    
+}
+#home {
+    background-image: url("https://i.pinimg.com/736x/f2/ec/4c/f2ec4c0c77b373112e09772c553a9b50.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    background-color: rgb(217, 212, 239);
+    font-size: large;
+
+}
+
+/* Welcome Section */
+#welcome {
+    background-color: rgb(245, 223, 99);
+    text-align: center;
+    background: -moz-linear-gradient(top, rgba(165, 156, 239, 0.8) 0%, rgba(148, 107, 230, 0.8) 100%);
+    padding: 20px;
+    border-radius: 10px;
+
+    color: rgb(15, 13, 17);
+}
+
+
+/*hero Section */
+#hero {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/*button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(38, 14, 222);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: rgb(160, 151, 231);
+    color: rgb(121, 17, 17);
+}
+/* Featured Safaris Section */
+.featured-safaris-title {
+    text-align: center;
+    color: rgb(15, 13, 17);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+/* Safari Cards */
+.safari-card {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    background-color: rgba(174, 173, 183, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(45, 6, 201, 0.1);
+    vertical-align: top;
+    justify-content: center;
+}
+.safari-card h3 {
+    color: rgb(15, 13, 17);
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* BOOKING Button */
+.BOOKING {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(38, 14, 222);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+/* BOOKING Button Hover Effect */
+.BOOKING:hover {
+    background-color:white;
+    color: rgb(2, 2, 197);
+}
+/* Prices Section */
+#prices {
+    background-color: rgb(188, 185, 199);
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    opacity:0.9; 
+    text-align: center;
+}
+.prices {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(38, 14, 222);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.prices:hover {
+    background-color: white;
+    color: rgb(2, 2, 197);
+}
+/* Footer */
+#footer {
+    background-color: rgba(233, 233, 240, 0.8);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#heading {
+    text-align: center;
+    color: rgb(15, 13, 17);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+#about {
+    background-color: rgb(217, 212, 239);
+    font-size: large;
+}
+#paragraph {
+    text-align: center;
+    color: rgb(15, 13, 17);
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.adventure-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.adventure-images img {
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+#safari-packages {
+    background-color: rgb(188, 185, 199);
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    opacity:0.9; 
+    text-align: center;
+}
+#tops {
+    font-size: large;
+    margin: 10px;
+    border-radius: 10px;
+    opacity:0.9; 
+    text-align: center;
+}
+#body {
+    font-size: medium;
+    margin: 10px;
+    border-radius: 10px;
+    opacity:0.9; 
+    text-align: center;
+}
+#social-media {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.booking-form{
+    width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    opacity: 0.9;
+}
+/* stack inputs vertically */
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input,select{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+#book{
+    width: 400px;
+    padding: 12px;
+    border: none;
+    background: #14532d;
+    color: aqua;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+}
+@media(max-width:768px){
+    .booking-form{
+        width: 90%;
+    }
+}
+
+h2{
+    text-align: center;}
+#work{
+    background-image: url("https://i.pinimg.com/736x/cc/da/de/ccdaded7089cd1f7f54a6af947688012.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+} 
+.btn{
+    background-color: aqua;
+    justify-content: center;
+}
+#bookings{
+   width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgb(139, 144, 223);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    opacity: 0.9; 
+}
+#brief{
+    text-align: center;
+    font-size: larger;
+}
