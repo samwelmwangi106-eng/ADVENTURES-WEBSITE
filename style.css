@@ -1,19 +1,6 @@
 /* style.css */
-@media screen and (max-width:600px) {
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: rgb(233, 233, 240);
-    }
-    #home {
-font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: rgb(233, 233, 240);
-    }
-    
-}
+@media screen and (max-width:600px) {}
+
 #home {
     background-image: url("https://i.pinimg.com/736x/f2/ec/4c/f2ec4c0c77b373112e09772c553a9b50.jpg");
     background-position: center;
